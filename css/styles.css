@@ -169,18 +169,13 @@ color: white;
         width: 400px;
         height: 300px;
         float: right;
-
     }
 
     .metodocontein {
         margin-block-start: 0em;
         margin-block-end: 1em;
     }
-
-
     }
-
-
 
 
 @media (max-width: 768px) {
