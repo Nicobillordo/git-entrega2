@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    color: #a3b18a;
+    background-color: black;
+    font-size: 80%;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    display: flex;
+    justify-content: left;
+    font-size: 10px;
+}
+
+footer {
+    color: antiquewhite;
+    background-color: black;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.tamaño {
+    font-size: 26px;
+}
+
+.portada {
+    resize: both;
+    overflow: auto;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-attachment: fixed;
+}
+
+
+.letra {
+    font-size: 18px;
+}
+
+
+.bot {
+    background-color: #a3b18a;
+    border: 0px;
+    padding: 20px;
+}
+
+
+.botonstart {
+
+    background-color: #3a5a40;
+    padding: 35px 75px;
+    border-radius: 20px;
+
+
+
+}
+
+.contenedor {
+    display: flex;
+    justify-content: left;
+
+}
+
+.contein {
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+
+#img1 {
+    border-radius: 25%;
+    width: 400px;
+    height: 300px;
+    margin-right: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+}
+
+#img2 {
+    border-radius: 25%;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+}
+
+.metodocontein {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+
+}
+
+.metodoimg {
+    border-radius: 10%;
+    width: 600px;
+    height: 400px;
+    float: right;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+}
+
+@media (max-width: 768px) {
+    .bot {
+        background-color: #a3b18a;
+        border: 0px;
+        padding: 15px;
+        font-size: 52%;
+    }
+
+    .botonstart {
+        background-color: #3a5a40;
+        border: 0px;
+        padding: 30px;
+        font-size: 100%;
+    }
+
+    .metodocontein {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .metodoimg {
+        border-radius: 10%;
+        width: 300px;
+        height: 200px;
+        float: right;
+    }
+}
+
+@media (min-width:300px) and (max-width: 600px) {
+    .metodoimg {
+        border-radius: 10%;
+        width: 300px;
+        height: 200px;
+        float: right;
+
+    }
+
+    .metodocontein {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+
+
+
+    }
+
+
+}
