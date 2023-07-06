@@ -11,7 +11,7 @@ header {
 }
 
 body {
-    margin: 0;
+    margin: 0px;
     
     background-color: white;
     position: relative;
@@ -126,7 +126,7 @@ color: white;
     box-shadow: 5px 8px 12px black;
 }
 
-@media (max-width: 778px) {
+@media (max-width: 850px) {
     .bot {
         color: white;
         background-color: #a3b18a;
@@ -145,6 +145,7 @@ color: white;
 
     .metodocontein {
         width: 100%;
+        margin: 5px;
         height: auto;
         justify-content: center;
     }
