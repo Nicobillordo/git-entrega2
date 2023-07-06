@@ -127,6 +127,11 @@ color: white;
 }
 
 @media (max-width: 850px) {
+    header {
+        color: #a3b18a;
+        background-color: black;
+        font-size: 80%;
+    }
     .bot {
         color: white;
         background-color: #a3b18a;
