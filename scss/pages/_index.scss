@@ -1,0 +1,57 @@
+
+.conten {
+    font-size: 18px;
+
+    &__boton {
+        color: white;
+        background-color: #3a5a40;
+        padding: 35px 75px;
+        border-radius: 20px;
+
+        &:hover {
+            background-color: #a3b18a;
+        }
+    }
+
+    &__entreno {
+        display: flex;
+        justify-content: left;
+
+    }
+}
+
+
+.portada {
+    resize: both;
+    overflow: auto;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-attachment: fixed;
+}
+
+
+
+@media (max-width: 850px) {
+    header {
+        color: #a3b18a;
+        background-color: black;
+        font-size: 80%;
+    }
+    .bot {
+        color: white;
+        background-color: #a3b18a;
+        border: 0px;
+        padding: 15px;
+        font-size: 52%;
+    }
+
+    .conten__boton {
+        color: whitesmoke;
+        background-color: #3a5a40;
+        border: 0px;
+        padding: 30px;
+        font-size: 100%;
+    }}

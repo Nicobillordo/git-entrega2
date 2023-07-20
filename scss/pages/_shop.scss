@@ -1,0 +1,32 @@
+#imgshop{
+    border-radius: 25%;
+    width: 300px;
+    height: 300px;
+    margin-right: 25px;
+    border-radius: 20px;
+}
+.shopcontein {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    display: flex;
+justify-content: left;
+}
+
+@media (max-width: 850px){
+    #imgshop{
+        border-radius: 25%;
+        width: 100px;
+        height: 100px;
+        margin-right: 25px;
+        border-radius: 20px;
+    }
+
+    .shopcontein{
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 10px;
+        display: flex;
+    justify-content: left;
+    }
+}

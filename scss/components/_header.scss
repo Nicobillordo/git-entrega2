@@ -1,0 +1,13 @@
+
+header {
+    color: #a3b18a;
+    background-color: black;
+    /*font-size: 80%;*/
+
+    &__titulo {
+        display: flex;
+        justify-content: center;
+        font-size: 26px;
+    }
+
+}

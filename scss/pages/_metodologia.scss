@@ -1,0 +1,31 @@
+.metodo {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+
+
+    &__img{
+        border-radius: 10%;
+        width: 600px;
+        height: 400px;
+        float: right;
+        border-radius: 20px;
+        /*box-shadow: 5px 8px 12px black;*/
+    }
+
+}
+
+
+@media (min-width:300px) and (max-width: 600px) {
+    .metodoimg {
+        border-radius: 10%;
+        width: 400px;
+        height: 300px;
+        float: right;
+    }
+
+    .metodocontein {
+        margin-block-start: 0em;
+        margin-block-end: 1em;
+    }
+    }
