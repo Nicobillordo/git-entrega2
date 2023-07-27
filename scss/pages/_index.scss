@@ -1,6 +1,7 @@
 
 .conten {
     font-size: 18px;
+ 
 
     &__boton {
         color: white;
@@ -19,8 +20,10 @@
 
     }
 }
-
-
+main{
+    height: 100vh;
+    border: 10px solid;
+}
 .portada {
     resize: both;
     overflow: auto;
@@ -40,12 +43,24 @@
         background-color: black;
         font-size: 80%;
     }
+    body{
+        margin: 0;
+       background-color: beige;
+       position: relative;
+    }
+    main{
+        height: 150%
+
+    }
+    .conten{
+        font: size 70%;
+    }
     .bot {
         color: white;
         background-color: #a3b18a;
         border: 0px;
         padding: 15px;
-        font-size: 52%;
+        font-size: 40%;
     }
 
     .conten__boton {
@@ -53,5 +68,5 @@
         background-color: #3a5a40;
         border: 0px;
         padding: 30px;
-        font-size: 100%;
+        font-size: 100%
     }}
