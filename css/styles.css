@@ -14,11 +14,14 @@ header__titulo {
   justify-content: center;
   font-size: 26px;
 }
+header__ul {
+  display: flex;
+}
 
 .bot {
   background-color: #a3b18a;
-  border: 10px;
-  padding: 20px;
+  border: 30px;
+  padding: 15px;
 }
 .bot:hover {
   background-color: #3a5a40;
@@ -114,7 +117,6 @@ footer {
   height: 300px;
   margin-right: 25px;
   border-radius: 20px;
-  /*  box-shadow: 5px 8px 12px black;*/
 }
 
 .contein {
@@ -131,14 +133,16 @@ footer {
     margin-right: 25px;
     border-radius: 20px;
   }
-  #img2 {
-    border-radius: 25%;
-    width: 200px;
-    height: 150px;
-    margin-right: 25px;
-    border-radius: 20px;
-  }
 }
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+ul li {
+  padding: 10px;
+}
+
 #imgshop {
   border-radius: 25%;
   width: 300px;
