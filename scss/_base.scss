@@ -7,5 +7,14 @@
 body{
     margin: 0;
    background-color: beige;
-  
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    
+li{
+    padding: 10px;
+}
 }
